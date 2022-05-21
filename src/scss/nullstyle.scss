@@ -1,4 +1,6 @@
 $fontsize: 16px;
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;700&display=swap');
+
 
 * {
 	padding: 0;
@@ -35,6 +37,8 @@ body {
 	font-size: 100%;
 	line-height: 1;
 	font-size: $fontsize;
+	font-family: 'Gothic A1', sans-serif;
+	background-color: white;
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
