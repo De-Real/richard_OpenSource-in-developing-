@@ -4,6 +4,10 @@
 @import "header";
 
 //Styles
+body._lock{
+	overflow: hidden;
+}
+
 [class*="__container"]{	
 	margin: 0 auto;
 }
