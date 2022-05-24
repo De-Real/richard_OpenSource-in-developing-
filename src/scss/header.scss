@@ -1,9 +1,13 @@
 $height: 100px;
 .header {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 50;
 	&__container {
 		min-height: $height;
 		padding: 0 72px;
-		background-color: black;
 	}
 	@media(max-width: 767.98px){
 		&__container{
