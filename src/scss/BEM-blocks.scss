@@ -22,7 +22,7 @@
 }
 .text-block__subtitle {
 	font-size: 12px;
-	line-height: 20px;
+	line-height: 1.6;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	margin-bottom: 25px;
@@ -31,12 +31,29 @@
 
 .text-block__title {
 	font-size: 38px;
-	line-height: 48px;
+	line-height: 1.26;
 	color: black;
+	margin-bottom: 22px;
 }
 
 .text-block__description {
 	font-size: 16px;
-	line-height: 30px;
+	line-height: 1.875;
 	color: #6B6B6B;
+}
+
+@media(max-width: 1202px){
+	.text-block__title{
+		max-width: 500px;	
+	}
+}
+
+@media(max-width: 767.98px){
+	.text-block__subtitle{
+		margin-bottom: 15px;
+	}
+	.text-block__title{
+		font-size: 30px;
+		margin-bottom: 15px;
+	}
 }
