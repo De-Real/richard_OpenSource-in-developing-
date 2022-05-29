@@ -3,6 +3,16 @@
 .products__container {
 	padding-bottom: 79px;
 }
+@media(max-width: 767.98px){
+	.products__container{
+		padding-bottom: 56px;
+	}
+}
+@media(max-width: 479.98px){
+	.products__container{
+		padding-bottom: 24px;
+	}
+}
 .products__block {
 }
 .products__row {

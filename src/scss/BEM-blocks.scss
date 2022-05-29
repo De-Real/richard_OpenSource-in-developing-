@@ -19,6 +19,7 @@
 //
 
 .text-block {
+	
 }
 .text-block__subtitle {
 	font-size: 12px;
@@ -40,6 +41,10 @@
 	font-size: 16px;
 	line-height: 1.875;
 	color: #6B6B6B;
+	span{
+		font-weight: 700;
+	text-decoration-line: underline;
+	}
 }
 
 @media(max-width: 1202px){

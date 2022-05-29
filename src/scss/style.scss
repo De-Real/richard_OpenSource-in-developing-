@@ -1,12 +1,18 @@
 // Imports
+@import "BEM-blocks";
+
 @import "fonts";
 @import "nullstyle";
 @import "header";
-@import "BEM-blocks";
 @import "momentum";
 @import "laptop";
 @import "products";
 @import "features";
+@import "statistics";
+@import "meals";
+
+
+
 //Styles
 body._lock{
 	overflow: hidden;
