@@ -1,0 +1,129 @@
+.comment {
+	margin-bottom: 80px;
+}
+.comment__container {
+}
+.comment__block {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.comment__row1{
+	overflow: hidden;
+}
+.comment__row {
+	display: flex;
+	width: 720px;	
+	margin-bottom: 65px;
+	position: relative;
+	transition: left 1s ease 0s;
+}
+@media(max-width: 767.98px){
+	.comment__row{
+		margin-bottom: 16px;
+	}
+}
+@media(max-width: 479.98px){
+	.comment__row{
+		margin-bottom: 8px;
+	}
+}
+.comment__column {
+	display: flex;
+	min-width: 720px;
+	padding: 0 10px;
+	align-items: center;
+	flex-direction: column;
+}
+@media(max-width: 767.98px){
+	.comment__row{
+		max-width: 700px;
+	}
+	.comment__column{
+		max-width: 700px;
+	}
+}
+.comment-column._active{
+	left: -720px;
+}
+@media(max-width: 767.98px){
+	.comment-column._active{
+		left: -400px;
+	}
+}
+.comment-column {
+	
+	color: #6B6B6B;
+	a{
+		color: #6B6B6B;
+	}
+}
+.comment__column-1 {
+	
+}
+.comment-column__sign {
+	margin-bottom: 63px;
+}
+.comment-column__text {
+	margin-bottom: 17px;
+	font-size: 1.5rem;
+	line-height: 1.6666;
+	text-align: center;
+}
+
+@media(max-width: 767.98px){
+	.comment-column__text{
+		font-size: 1.2rem;
+		max-width: 420px;
+	}
+}
+@media(max-width: 479.98px){
+	.comment-column__text{
+		max-width: 250px;
+		text-align: left;
+	}
+}
+.comment-column__author {
+	display: flex;
+	align-items: center;
+}
+@media(max-width: 479.98px){
+	.comment-column__author{
+		flex-direction: column;
+	}
+}
+.comment-column__name{
+	padding: 10px 20px;
+}
+.comment-column span{
+	display: block;
+	height: 1px;
+	width: 30px;
+	background: #D3D3D3;
+}
+.comment-column__edition {
+	padding: 10px 20px;
+	font-weight: 700;
+}
+@media(max-width: 479.98px){
+	.comment-column__edition{
+		padding: 10px 5px;
+	}
+	.comment-column__name{
+		padding: 10px 5px;
+	}
+}
+.comment__block-state {
+	display: flex;
+}
+.comment__block-column {
+	display: flex;
+	height: 7px;
+	width: 7px;
+	margin: 8px;
+	background: #22222266;
+}
+
+.comment__block-column._true {
+	background: #222222;
+}

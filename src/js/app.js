@@ -10,3 +10,7 @@ const swiper = new Swiper();
 import { menuBurger } from "./modules/burger-menu.js";
 
 menuBurger();
+
+import { scrollImage } from "./modules/imageScroll.js";
+
+scrollImage();
