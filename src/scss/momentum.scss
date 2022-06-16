@@ -2,6 +2,10 @@
 .momentum {
 	padding: 277px 0;
 	background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
+	
+}
+.momentum._active {
+	
 }
 @media(max-width: 1202px){
 	.momentum{
@@ -20,6 +24,12 @@
 }
 .momentum__container {
 	padding: 0 72px;
+	position: relative;
+	left: -100%;
+	transition: all 2s ease-in-out 0s;
+}
+.momentum__container._active{
+	left: 0;
 }
 @media(max-width: 767.98px){
 	.momentum__container{
@@ -83,6 +93,7 @@
 .momentum__image {
 	position: relative;
 	flex: 1 1 42%;
+	animation: pulsePhoto 10s ease infinite normal running 0s none;
 	img{
 		width: 100%;
 		height: 100%;
@@ -119,6 +130,30 @@
 	left: 50%;
 	bottom: -(277px - 26px);
 	padding: 5px;
+	transform: scale(1,1);
+	animation: pulseArrow 5s ease infinite normal running 0s none;
+}
+@keyframes pulsePhoto{
+	0%{
+		transform: scale(1,1) translateY(0);	
+	}
+	50%{
+		transform: scale(1.05,1.05) translateY(0)	
+	}
+	100%{
+		transform: scale(1,1) translateY(0);
+	}
+}
+@keyframes pulseArrow{
+	0%{
+		transform: scale(1,1) translateY(0);	
+	}
+	50%{
+		transform: scale(1.5,1.5) translateY(-50px)	
+	}
+	100%{
+		transform: scale(1,1) translateY(0);
+	}
 }
 @media(max-width: 1202px){
 	.momentum__arrow{
