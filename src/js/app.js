@@ -21,8 +21,8 @@ import { arrowScroll } from "./modules/arrow-scroll.js";
 
 arrowScroll();
 
-let script = document.querySelector('script');
+import { topMover } from "./modules/top-mover.js";
 
-
+topMover();
 
 

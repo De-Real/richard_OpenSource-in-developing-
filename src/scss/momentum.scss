@@ -93,7 +93,7 @@
 .momentum__image {
 	position: relative;
 	flex: 1 1 42%;
-	animation: pulsePhoto 10s ease infinite normal running 0s none;
+	animation: pulsePhoto 10s ease infinite normal running 2s none;
 	img{
 		width: 100%;
 		height: 100%;
@@ -131,7 +131,7 @@
 	bottom: -(277px - 26px);
 	padding: 5px;
 	transform: scale(1,1);
-	animation: pulseArrow 5s ease infinite normal running 0s none;
+	animation: pulseArrow 5s ease infinite normal running 2s none;
 }
 @keyframes pulsePhoto{
 	0%{

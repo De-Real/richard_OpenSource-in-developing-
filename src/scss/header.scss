@@ -33,7 +33,8 @@ $height: 100px;
 		z-index: 10;
 		max-width: 120px;
 		max-height: 43px;
-		animation: pulseLogo 5s ease infinite normal running 0s none;
+		user-select: none;
+		animation: pulseLogo 5s ease infinite normal running 2s none;
 		img{
 			width: 100%;
 			height: 100%;
